@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{03584856-0635-4B2D-8C52-A3D0DBC5D498}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Items/Delete.cshtml">
+    <Files>
+      <File FileName="Views/Categories/Delete.cshtml" Line="13" Column="39" />
+      <File FileName="Controllers/CategoriesController.cs" Line="40" Column="4" />
+      <File FileName="Views/Items/Details.cshtml" Line="13" Column="46" />
+      <File FileName="Views/Items/Delete.cshtml" Line="15" Column="49" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

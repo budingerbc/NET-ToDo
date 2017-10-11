@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "To Do List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<ToDoList.Models.Category>
+
+
+<h2>To Do List</h2>
+<h4>@Html.DisplayNameFor(model => model.Name)</h4>
+<ul>
+    @foreach(var listCategory in Model)
+    {
+        <li>
+            @Html.DisplayFor(modelCategory => listCategory.Name) | 
+            @Html.ActionLink("Details", "Details", new { id = listCategory.CategoryId }) |
+			@Html.ActionLink("Edit", "Edit", new { id = listCategory.CategoryId }) |
+			@Html.ActionLink("Delete", "Delete", new { id = listCategory.CategoryId })
+       </li>
+    }
+
+	<p>@Html.ActionLink("Add new item", "Create")</p>
+</ul>
